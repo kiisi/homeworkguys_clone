@@ -16,7 +16,7 @@
     position:absolute;
 }
 .header-cloud2{
-    left:-10%;
+    left:-5%;
 }
 .header-dice{
     right:0;
@@ -33,7 +33,7 @@
 }
 .header-cloud0{
     z-index:100;
-    left:-15%;
+    left:-5%;
 } 
 .header-cloud1{
     right:0;

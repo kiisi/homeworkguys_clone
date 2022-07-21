@@ -1,13 +1,14 @@
 .header-wrapper{
-    background:radial-gradient(circle at 94.35384114583333% 89.61588541666666%, #D10101 0%, 20%, rgba(209,1,1,0) 40%), radial-gradient(circle at 6.503906249999999% 88.037109375%, rgba(44,44,44,0.99) 0%, 25%, rgba(44,44,44,0) 50%), radial-gradient(circle at 6.165364583333333% 12.617187499999998%, #FF4040 0%, 42%, rgba(255,64,64,0) 70%), radial-gradient(circle at 93.6865234375% 11.42578125%, #424242 0%, 42%, rgba(66,66,66,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #FFFFFF 0%, 100%, rgba(255,255,255,0) 100%);
     width:100%;
+    background:radial-gradient(circle at 94.35384114583333% 89.61588541666666%, #D10101 0%, 20%, rgba(209,1,1,0) 40%), radial-gradient(circle at 6.503906249999999% 88.037109375%, rgba(44,44,44,0.99) 0%, 25%, rgba(44,44,44,0) 50%), radial-gradient(circle at 6.165364583333333% 12.617187499999998%, #FF4040 0%, 42%, rgba(255,64,64,0) 70%), radial-gradient(circle at 93.6865234375% 11.42578125%, #424242 0%, 42%, rgba(66,66,66,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #FFFFFF 0%, 100%, rgba(255,255,255,0) 100%);
     display:grid;
     place-items:center;
 }
 .header-container{
     height:150vh;
-    max-width:1300px;
+    width:100%;
     position:relative;
+    max-width: 1400px;
     overflow:hidden;
 }
 .header-cloud2, .header-dice,.header-cloud4,

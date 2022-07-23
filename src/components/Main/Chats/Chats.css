@@ -1,0 +1,6 @@
+.chats-wrapper{
+    background:radial-gradient(circle at 56.666666666666664% 96.66666666666667%, #FF8870 0%, 17.5%, rgba(255,136,112,0) 35%), radial-gradient(circle at 74.16666666666667% 49.166666666666664%, #FFFFFE 0%, 17.5%, rgba(255,255,254,0) 35%), radial-gradient(circle at 99.16666666666667% 51.66666666666667%, #FF4040 0%, 17.5%, rgba(255,64,64,0) 35%), radial-gradient(circle at 54.58333333333333% 67.5%, #C7C3C3 0%, 17.5%, rgba(199,195,195,0) 35%), radial-gradient(circle at 2.9166666666666665% 10.833333333333334%, #FFFFFF 0%, 17.5%, rgba(255,255,255,0) 35%), radial-gradient(circle at 0.4166666666666667% 85%, rgba(255,64,64,0.56) 0%, 17.5%, rgba(255,64,64,0) 35%), radial-gradient(circle at 96.66666666666667% 88.33333333333333%, #FFFFFF 0%, 20%, rgba(255,255,255,0) 40%), radial-gradient(circle at 35.41666666666667% 94.16666666666667%, rgba(255,255,255,0.99) 0%, 25%, rgba(255,255,255,0) 50%), radial-gradient(circle at 4.583333333333333% 51.66666666666667%, #C7C3C3 0%, 42%, rgba(199,195,195,0) 70%), radial-gradient(circle at 55.833333333333336% 20.833333333333336%, rgba(255,64,64,0.67) 0%, 42%, rgba(255,64,64,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, rgba(255,255,255,0.56) 0%, 100%, rgba(255,255,255,0) 100%);
+    position: relative;
+    width:100%;
+    height:30rem;
+}

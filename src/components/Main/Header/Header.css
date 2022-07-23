@@ -16,7 +16,7 @@
     position:absolute;
 }
 .header-cloud2{
-    left:-5%;
+    left:0%;
 }
 .header-dice{
     right:0;
@@ -42,6 +42,7 @@
     bottom:-12%;
     transform:rotate(20deg);
     z-index:99;
+    left:4%;
 }
 .header-content-wrapper{
     height:100%;

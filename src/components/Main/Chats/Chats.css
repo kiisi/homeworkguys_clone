@@ -5,7 +5,7 @@
 }
 .chats-container{
     position:relative;
-    max-width: 1800px;
+    max-width: 1600px;
     height:100%;
 }
 .chats-container .flower{
@@ -16,7 +16,11 @@
     left:-2%;
 }
 .chats-container .flower-2{
-    left:20%
+    left:30%
+}
+.chats-container .flower-3{
+    left:0;
+    transform:rotate(180deg);
 }
 .chats-container .flower-4{
     right:0%

@@ -7,7 +7,6 @@ import cloud5 from '../../Images/Cloud5.png'
 import cloud8 from '../../Images/Cloud8.png'
 import f7 from '../../Images/F7.png'
 import f15 from '../../Images/F15.png'
-import flower from '../../Images/aF19.png'
 const Testimony = () => {
   return (
     <section className="testimony-wrapper">
@@ -83,10 +82,6 @@ const Testimony = () => {
           </div>
         </div>
       </div>
-      <img src={flower} alt="flower" className="flower"/>
-      <img src={flower} alt="flower" className="flower"/>
-      <img src={flower} alt="flower" className="flower"/>
-      <img src={flower} alt="flower" className="flower"/>
     </section>
   )
 }

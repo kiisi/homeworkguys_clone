@@ -1,6 +1,8 @@
 .chats-wrapper{
     background:#2f2e2e;
     width:100%;
+    display:grid;
+    place-items:center;
     height:40rem;
 }
 .chats-container{

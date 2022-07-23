@@ -1,0 +1,75 @@
+.about-wrapper{
+    background:radial-gradient(circle at 27.500000000000004% 55.00000000000001%, #757575 0%, 17.5%, rgba(117,117,117,0) 35%), radial-gradient(circle at 44.583333333333336% 4.166666666666666%, #4D4B4B 0%, 17.5%, rgba(77,75,75,0) 35%), radial-gradient(circle at 43.333333333333336% 95.83333333333334%, #8B0000 0%, 17.5%, rgba(139,0,0,0) 35%), radial-gradient(circle at 62.083333333333336% 60%, #D10101 0%, 17.5%, rgba(209,1,1,0) 35%), radial-gradient(circle at 94.16666666666667% 51.66666666666667%, #2C2C2C 0%, 17.5%, rgba(44,44,44,0) 35%), radial-gradient(circle at 94.35384114583333% 89.61588541666666%, #C7C3C3 0%, 20%, rgba(199,195,195,0) 40%), radial-gradient(circle at 6.503906249999999% 88.037109375%, rgba(0,0,0,0.99) 0%, 25%, rgba(0,0,0,0) 50%), radial-gradient(circle at 6.165364583333333% 12.617187499999998%, #FF4040 0%, 42%, rgba(255,64,64,0) 70%), radial-gradient(circle at 93.6865234375% 11.42578125%, #FF8870 0%, 42%, rgba(255,136,112,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #FFFFFF 0%, 100%, rgba(255,255,255,0) 100%);
+    display:grid;
+    place-items: center;
+    width:100%;
+    padding-top:5rem;
+    overflow: hidden;
+    height:100%;
+}
+.about-container{
+    height:100%;
+    width:100%;
+    max-width:98rem;
+    display:grid;
+    place-items:center;
+}
+.about-mission-wrapper{
+    height:30rem;
+    display:grid;
+    place-items: center;
+}
+.about-mission-image{
+    transform:rotate(-5deg);
+}
+.about-mission-caption{
+    font-size:2.6rem;
+}
+.about-mission-caption p{
+    display:grid;
+    font-weight: 600;
+    place-items: center;
+    text-shadow: 2px 2px 3px #2e2c2c;
+    color:#F9BBAD;
+}
+.about-ethics-wrapper{
+    display:grid;
+    place-items: center;
+}
+.about-ethics{
+    width:100%;
+    display:grid;
+    place-items: center;
+    padding-bottom:3rem;
+}
+.about-ethics-content-header{
+    padding-top:2rem;
+    padding-bottom: 1.5rem;
+}
+.about-ethics-content-header p{
+    font-size:2.4rem;
+    font-weight:600;
+    color:#fff;    
+    display:grid;
+    place-items: center;
+}
+.about-ethics-content-main{
+    display:grid;
+    place-items:center;
+}
+.about-ethics-content-main ol{
+    font-size:2rem;
+    color:#F9BBAD;
+    width:100%;
+    max-width:65rem;
+}
+.about-ethics-content-main ol li{
+    line-height:3rem;
+}
+.about-who{
+    overflow:hidden;
+    padding-bottom:3rem;
+}
+.about-who-image{
+    transform:rotate(-7deg);
+}

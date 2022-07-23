@@ -9,7 +9,10 @@ html{
   font-size:62.5%;
   font-family:'Roboto', sans-serif;
 }
-
+a,a:link,:visited{
+  color:white;
+  text-decoration: none;
+}
 .max-wrapper{
   width:100%;
   display:grid;

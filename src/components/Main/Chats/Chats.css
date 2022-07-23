@@ -8,6 +8,7 @@
 .chats-container{
     position:relative;
     max-width: 1600px;
+    width:100%;
     height:100%;
 }
 .chats-container .flower{

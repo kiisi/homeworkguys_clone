@@ -1,0 +1,27 @@
+.staffs-image-wrapper{
+    width:100%;
+    display: grid;
+    place-items:center;
+}
+.staffs-header-wrapper{
+    padding:2rem 0;
+    margin-bottom:4rem;
+}
+.staffs-header h1{
+    font-weight:700;
+    color:#FFC4B8;
+    padding-bottom:1rem;
+    text-decoration: 2px 2px 3px #2e2c2c;
+    display:grid;
+    place-items:center;
+    font-size: 5rem;
+}
+.staffs-header p{
+    font-weight:600;
+    text-decoration: 4px 4px 5px #2e2c2c;
+    color:#FFC4B8;
+    font-size: 2.8rem;
+    text-align:center;
+    display:grid;
+    place-items:center;
+}

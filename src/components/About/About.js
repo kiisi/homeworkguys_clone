@@ -4,6 +4,7 @@ import mission from '../Images/oUR mISSION.png'
 import ethics from '../Images/oUR eTHICS rULEBOOK.png'
 import whoweare from '../Images/WHO WE ARE.png'
 import Person from './Person/Person'
+import Staffs from './Staffs/Staffs'
 const About = () => {
   return (
     <div className="about-wrapper">
@@ -42,6 +43,7 @@ const About = () => {
         </div>
 
         <Person/>
+        <Staffs/>
       </div>
     </div>
   )

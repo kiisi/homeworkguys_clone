@@ -1,9 +1,14 @@
 .staff-container{
-    display:flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(21.6rem, 1fr));
 }
 .staff{
     margin-bottom: 8rem;
+}
+.staff-avatar-wrapper{
+    width:100%;
+    display:grid;
+    place-items:center;
 }
 .staff-avatar{
     width:21.6rem;

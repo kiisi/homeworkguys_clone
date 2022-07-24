@@ -11,16 +11,20 @@ const About = () => {
       <div className="about-container">
         <div className="about-mission-wrapper">
           <div className="about-mission">
-            <div className="about-mission-image">
-              <img src={mission} alt="mission" />
+            <div className="about-mission-image-wrapper">
+              <div className="about-mission-image">
+                <img src={mission} alt="mission" />
+              </div>
             </div>
             <div className="about-mission-caption"><p>To be the best at homework. As simple as that.</p></div>
           </div>
         </div>
         <div className="about-ethics-wrapper">
           <div className="about-ethics">
-            <div className="about-ethics-image">
-              <img src={ethics} alt='ethics' />
+            <div className="about-ethics-image-wrapper">
+              <div className="about-ethics-image">
+                <img src={ethics} alt='ethics' />
+              </div>
             </div>
             <div className="about-ethics-content-wrapper">
               <div className="about-ethics-content">
@@ -36,15 +40,22 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="about-who">
-          <div className="about-who-image">
-            <img src={whoweare} alt="who we are"/>
+         <div className="about-who">
+          <div className="about-who-image-wrapper">
+            <div className="about-who-image">
+              <img src={whoweare} alt="who we are" />
+            </div>
           </div>
         </div>
 
-        <Person/>
-        <Staffs/>
-      </div>
+        <Person />
+        
+        <Staffs />
+        <div className="about-try">
+          <h1>And lots more!</h1>
+          <p>To work for us, email us at info.homework.guys@gmail.com</p>
+        </div> 
+     </div>
     </div>
   )
 }

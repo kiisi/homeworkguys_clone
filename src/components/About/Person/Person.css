@@ -33,3 +33,56 @@
 .person-wrapper .person-4{
     transform:translateY(-17rem) translateX(14rem);
 }
+
+@media screen and (max-width:900px){
+    
+    .person{
+        margin-bottom:2rem;
+    }
+    .person-wrapper .person-2{
+        transform:translateY(0) translateX(0) rotate(0);
+    }
+    .person-details-wrapper .person-details-2{
+        transform:translateY(0) rotate(0);
+    }
+    .person-wrapper .person-3{
+        transform:translateY(0) rotate(0);
+    }
+    .person-details-wrapper .person-details-3{
+        transform:translateY(0) rotate(0);
+    }
+    .person-wrapper .person-4{
+        transform:translateY(0) translateX(0);
+    }   
+    .person-details-wrapper {
+        display:grid;
+        place-items:center;
+    }
+    .person-details h1{
+        font-size:4rem;
+        color:#FFC4B8;
+    }
+    .person-details h2{
+        font-size:2.2rem;
+        color:#C7C3C3;
+    }
+    
+}
+@media screen and (max-width: 666px){
+    .person{
+        display:block;
+    }
+    .person-details h1{
+        display:grid;
+        font-size:3rem;
+        place-items:center;
+    }
+    .person-details h2{
+        font-size:1.8rem;
+        display:grid;
+        place-items:center;
+    }
+    .person-details-wrapper{
+        padding-left:0;
+    }
+}

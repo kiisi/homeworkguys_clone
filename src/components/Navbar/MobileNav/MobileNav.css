@@ -66,3 +66,6 @@
         opacity:0;
     }
 }
+.nav-wrapper a:hover{
+    color:#FF9B9B;
+}

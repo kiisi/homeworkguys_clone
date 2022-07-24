@@ -26,6 +26,7 @@
 .minor-contact-us-chat-icon{
     color:#fff;
     font-size:2rem;
+    pointer-events: none;
 }
 .minor-contact-us-text {
     font-weight: 500;

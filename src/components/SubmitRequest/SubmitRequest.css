@@ -22,7 +22,7 @@
 }
 .submit-request-header h1, .submit-request-header h2{
     display:grid;
-    color:#2c2e2e;
+    color:#4D4B4B;
     text-shadow:2px 2px 4px #fff;
     place-items:center;
 }
@@ -106,4 +106,21 @@
 }
 .submit-request-footer-email{
     font-size:1.6rem;
+}
+@media screen and (max-width: 666px){
+    .submit-request-header h1{
+        font-size:3rem;
+        text-align:center;
+    }
+    .submit-request-header h2{
+        text-align:center;
+        font-size:2rem;
+    }
+    .submit-request-header{
+        padding:2rem 1rem;
+    }
+    .submit-request-content{
+        padding:2rem 1rem;
+    }
+
 }

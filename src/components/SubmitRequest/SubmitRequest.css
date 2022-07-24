@@ -122,5 +122,8 @@
     .submit-request-content{
         padding:2rem 1rem;
     }
-
+    .submit-request-btn-wrapper{   
+        padding:2rem 1rem;
+        padding-top:0;
+    }
 }

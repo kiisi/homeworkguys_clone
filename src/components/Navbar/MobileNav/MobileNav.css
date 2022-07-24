@@ -31,6 +31,7 @@
     display:none;
     color:white;
     padding-top:8rem;
+    position: fixed;
 }
 .mobile-nav ul{
     font-size:1.6rem;

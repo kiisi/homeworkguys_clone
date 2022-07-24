@@ -7,8 +7,9 @@
     place-items:center;
     box-shadow:0px 0px 1.2rem .1rem rgba(0, 0, 0, 0.3);
     position:fixed;
-    bottom:8%;
+    bottom:11%;
     right:2%;
+    transform:translate(-2%,-11%);
     display:none;
 }
 .scrollup span{

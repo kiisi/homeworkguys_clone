@@ -1,6 +1,7 @@
 import React from 'react'
 import ScrollUp from './ScrollUp/ScrollUp'
 import { useMediaQuery } from 'react-responsive'
+import MinorContactUs from './MinorContactUs/MinorContactUs'
 
 
 const Minor = () => {
@@ -8,7 +9,8 @@ const Minor = () => {
 
   return (
     <>
-        {mediaScreen ? <ScrollUp/> : ''}
+        {mediaScreen && <ScrollUp/>}
+        <MinorContactUs/>
     </>
   )
 }

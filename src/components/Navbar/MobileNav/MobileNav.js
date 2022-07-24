@@ -10,6 +10,7 @@ const MobileNav = () => {
     }
 
     return (
+        <>
         <nav className="max-wrapper nav-wrapper">
             <div className="mobile-nav-container">
                 <div className="mobile-nav-menuicon"onClick={menuClick}>
@@ -17,6 +18,8 @@ const MobileNav = () => {
                 </div>
             </div>
         </nav>
+
+        </>
     )
 }
 

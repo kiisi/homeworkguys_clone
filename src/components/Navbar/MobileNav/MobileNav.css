@@ -21,13 +21,4 @@
 }
 .mobile-nav-menuicon span{
     color:white;
-    animation:effect 500ms ease-in-out;
-}
-@keyframes effect{
-    from{
-        opacity:0;
-    }
-    to{
-        opacity:1;
-    }
 }

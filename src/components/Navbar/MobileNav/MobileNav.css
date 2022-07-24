@@ -1,0 +1,33 @@
+.nav-wrapper{
+    background:#2f2e2e;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    height:5rem;
+    z-index:1000;
+}
+.mobile-nav-container{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+.mobile-nav-menuicon{
+    position:absolute;
+    top:50%;
+    right:3%;
+    transform: translate(-3%, -50%);
+}
+.mobile-nav-menuicon span{
+    color:white;
+    animation:effect 500ms ease-in-out;
+}
+@keyframes effect{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}

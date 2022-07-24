@@ -1,19 +1,19 @@
 import React from 'react'
-import './Navbar.css'
+import { useMediaQuery } from 'react-responsive'
+import DesktopNav from './DesktopNav/DesktopNav'
+import MobileNav from './MobileNav/MobileNav'
 
 const Navbar = () => {
+
+  const mediaScreen = useMediaQuery({ query: '(max-width: 768px)' })
+
   return (
-    <nav className="max-wrapper nav-wrapper">
-        <div className="nav-container">
-            <div className="nav-items">
-                <ul>
-                    <li><a href={'/'}>Home</a></li>
-                    <li><a href={'/us'}>About us</a></li>
-                    <li><a href={'/request'}>SUBMIT REQUEST</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <>
+      {
+        mediaScreen ? <MobileNav/> : <DesktopNav/>
+      }
+    </>
+
   )
 }
 

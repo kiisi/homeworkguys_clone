@@ -5,6 +5,7 @@ import Main from './components/Main/Main'
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Footer from './components/Footer/Footer'
+import SubmitRequest from './components/SubmitRequest/SubmitRequest'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route exact path='/'element={<Main/>}/>
         <Route exact path='/us'element={<About/>}/>
+        <Route exact path='/request'element={<SubmitRequest/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

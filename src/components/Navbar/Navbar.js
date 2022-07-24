@@ -9,7 +9,7 @@ const Navbar = () => {
                 <ul>
                     <li><a href={'/'}>Home</a></li>
                     <li><a href={'/us'}>About us</a></li>
-                    <li>SUBMIT A REQUEST</li>
+                    <li><a href={'/request'}>SUBMIT REQUEST</a></li>
                 </ul>
             </div>
         </div>

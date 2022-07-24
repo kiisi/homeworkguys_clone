@@ -69,3 +69,14 @@
     display:grid;
     place-items:center;
 }
+
+@media screen and (max-width:768px){
+    .header-content h1{
+        font-size:4rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    .header-content p{
+        font-size:2rem;
+    }
+}

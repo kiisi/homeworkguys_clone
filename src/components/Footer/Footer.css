@@ -4,6 +4,7 @@
     place-items: center;
     background:#000;
     color:#fff;
+    padding:0 1rem;
 }
 .footer-container{
     height:100%;
@@ -18,4 +19,5 @@
 .footer p{
     display:grid;
     place-items: center;
+    text-align: center;
 }

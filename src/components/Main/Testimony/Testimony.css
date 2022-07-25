@@ -372,8 +372,10 @@
         font-size:2rem;
     }
     .testimony-section-image .cloud5 {
-        left: 50;
         bottom: -30%;
+        left: 50%;
+        bottom: -30%;
+        transform: translate(-50%,0%);
     }
     .testimony-section-image .cloud8{
         bottom:-24%;

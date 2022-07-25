@@ -461,4 +461,7 @@
         bottom: -45%;
         transform: translate(-45%,0%);
     }
+    .testimony-section-content-wrapper{
+        padding-bottom:2rem;
+    }
 }

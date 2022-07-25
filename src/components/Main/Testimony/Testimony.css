@@ -241,7 +241,8 @@
 .testimony-trust-wrapper{
     display:grid;
     place-items:center;
-    height:27rem;
+    padding-top:8rem;
+    padding-bottom:15rem;
     width:100%;
     max-width:100rem;
     margin-bottom:5rem;
@@ -364,9 +365,7 @@
         height:5rem;
         font-size:2rem;
     }
-    .testimony-trust-wrapper{
-        height:20rem;
-    }
+    
     .testimony-trust h1{
         font-size:2.4rem;
     }

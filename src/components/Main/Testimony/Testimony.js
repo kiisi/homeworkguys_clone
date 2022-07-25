@@ -23,7 +23,7 @@ const Testimony = () => {
             </div>
             <div className="testimony-section-image-wrapper">
               <div className="testimony-section-image">
-                <img src={f6} alt="f6" />
+                <img src={f6} alt="f6" className="f6"/>
                 <img src={cloud5} alt="cloud5" className="cloud5" />
                 <img src={cloud5} alt="cloud5" className="cloud5" />
                 <img src={cloud5} alt="cloud5" className="cloud5" />

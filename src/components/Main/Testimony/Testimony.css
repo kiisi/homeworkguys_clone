@@ -31,7 +31,7 @@
     width:100%;
 }
 .testimony-section{
-    height:30rem;
+    height:32rem;
     width:100%;
     display:grid;
     grid-template-columns: 70% 30%;
@@ -42,6 +42,7 @@
 
 .testimony-section-content{
     height:100%;
+    width:100%;
 }
 .testimony-section-content h1{
     font-size:3rem;
@@ -53,6 +54,7 @@
 }
 .testimony-section-image{
     height:100%;
+    width:100%;
     position:relative;
 }
 .testimony-section-image .cloud5{
@@ -437,5 +439,26 @@
     }
     .testimony-content-wrapper{
         height:25rem;
+    }
+    .f6{
+        max-width: 200px;
+        max-height:200px;
+        width:100%;
+        height:100%;
+    }
+    .f7{
+        max-width: 200px;
+        max-height:200px;
+        width:100%;
+        height:100%;
+    }
+    .testimony-section-image .cloud8 {
+        bottom: -40%;
+    }
+    .testimony-section-image .cloud5 {
+        bottom: -30%;
+        left: 50%;
+        bottom: -45%;
+        transform: translate(-45%,0%);
     }
 }

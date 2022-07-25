@@ -89,3 +89,8 @@
         font-size:1.8rem;
     }
 }
+@media screen and (max-width:348px){
+    .f10{
+        display:none;
+    }
+}

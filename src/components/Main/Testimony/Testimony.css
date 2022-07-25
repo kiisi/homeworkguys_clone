@@ -348,10 +348,92 @@
     .testimony-contact-image-wrapper img{
         width:100%;
         height:100%;
-        max-width:348px;
-        max-height:267px;
+        max-width:300px;
+        max-height:227px;
     }
     .testimony-section-content-wrapper h1{
+        font-size:2rem;
+    }
+    .testimony-contact-main{
+        max-width:25rem;
+        width:100%;
+    }
+    .testimony-contact-btn{
+        height:5rem;
+        font-size:2rem;
+    }
+    .testimony-trust-wrapper{
+        height:20rem;
+    }
+    .testimony-trust h1{
         font-size:2.4rem;
+    }
+    .testimony-section-content-wrapper-12 h1{
+        font-size:2rem;
+    }
+    .testimony-section-image .cloud5 {
+        left: 50;
+        bottom: -30%;
+    }
+    .testimony-section-image .cloud8{
+        bottom:-24%;
+    }
+}
+
+@media screen and (max-width:348px){
+    .testimony-content .ess{
+        font-size:2.8rem;
+
+    }
+    .testimony-content .mat{
+        font-size:2rem;
+    }
+    .testimony-content .pro{
+        font-size:2rem;
+    }
+    .testimony-content .bio{
+        font-size:1.9rem;
+    }
+    .testimony-content .pap{
+        font-size:2.1rem;
+    }
+    .testimony-content .che{
+        font-size:2.2rem;
+    }
+    .testimony-content .acc{
+        font-size:1.9rem;
+    }
+    .testimony-content .eco{
+        font-size:2rem;
+    }
+    .testimony-content .phy{
+        font-size:2.4rem;
+    }
+    .testimony-content .bioch{
+        font-size:2.1rem;
+    }
+    .testimony-content .mus{
+        font-size:1.8rem;
+    }
+    .testimony-content .psy{
+        font-size:2.5rem;
+    }
+    .testimony-content .arc{
+        font-size:2.4rem;
+    }
+    .testimony-content .sta{
+        font-size:2rem;
+    }
+    .testimony-content .soc{
+        font-size:2rem;
+    }
+    .testimony-contact-image-wrapper img{
+        width:100%;
+        height:100%;
+        max-width:150px;
+        max-height:100px;
+    }
+    .testimony-content-wrapper{
+        height:25rem;
     }
 }

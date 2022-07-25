@@ -1,5 +1,5 @@
 .chats-wrapper{
-    background:#2f2e2e;
+    background:#000;
     width:100%;
     display:grid;
     place-items:center;
@@ -7,14 +7,16 @@
 }
 
 .chats-flower-container{
-    position:relative;
-    width: 1600px;
-    transform:translateY(-20rem);
+    max-width: 1600px;
+    width:100%;
+    overflow: hidden;
+    height:25rem;
+    transform:translateY(-13rem);
 }
-.chats-flower-container img{
+.chats-flower-container .flower{
     position:absolute;
 }
-.chats-flower-container .flower-2{
+.chats-flower-container .flower-5{
     right:0;
 }
 .chats-flower-container .flower-3{
@@ -22,26 +24,25 @@
     transform: translateX(-50%);
 }
 .chats-flower-container .flower-4{
-    left:5%;
-    transform: translateX(-5%) rotate(180deg);
-}
-.chats-flower-container .flower-5{
-    right:10%;
-    transform: translateX(-10%) rotate(180deg) translateY(-7rem);
+    left:20%;
 }
 
+
 .chats-container{
+    margin-top:-12rem;
     background: rgb(0,0,0);
     position:relative;
     max-width: 1600px;
     width:100%;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     overflow:hidden;
 }
 .chats-container-img{
+    margin:0 auto;
     width:320px;
-    height:600px;
+    height: 100%;
+    max-height:600px;
     max-width:100%;
 }
 .chats-container-img img{
